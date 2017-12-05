@@ -1,5 +1,3 @@
-<?php
-echo "
 <!-- Define Navigation/Menu -->
 <nav>
 <ul>
@@ -13,5 +11,3 @@ echo "
 </ul>
 </nav>
 <!-- End Navigation -->
-";
-?>
