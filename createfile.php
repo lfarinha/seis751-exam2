@@ -5,6 +5,7 @@
  <?php require('./files/nav.php'); ?>
 
  <?php // createfile.php
+  chmod('./data/testfile.txt', 0755);
   $fh = fopen("./data/testfile.txt", 'x+') or die("Failed to create file");
 
   $text = <<<_END
