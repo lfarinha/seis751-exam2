@@ -5,7 +5,7 @@
  <?php require('./files/nav.php'); ?>
 
  <?php // createfile.php
-  $fh = fopen("./data/testfile.txt", 'w') or die("Failed to create file");
+  $fh = fopen("./data/testfile.txt", 'x+') or die("Failed to create file");
 
   $text = <<<_END
 Line 1
